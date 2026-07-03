@@ -1,0 +1,18 @@
+{
+  "type": "micro",
+  "wake_word": "Pandora",
+  "author": "pandora-miner",
+  "website": "",
+  "model": "stream_state_internal_quant.tflite",
+  "trained_languages": [
+    "en"
+  ],
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.8,
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 45000,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
