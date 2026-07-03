@@ -3,7 +3,7 @@
   "wake_word": "Pandora",
   "author": "pandora-miner",
   "website": "",
-  "model": "https://raw.githubusercontent.com/pixelpixi/pandora-wakeword/main/stream_state_internal_quant.tflite",
+  "model": "stream_state_internal_quant.tflite",
   "trained_languages": [
     "en"
   ],
